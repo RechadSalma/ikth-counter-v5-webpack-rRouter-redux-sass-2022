@@ -1,0 +1,63 @@
+20220204 - ikth-counter-v5-webpack-rRouter-redux-sass-2022
+================ MISSION
+-version05: webpack / react / react-router / redux / sass / redux devtools
+-three routes:
+	- / counter page with working buttons
+	- /side whatever page to show path pages work with react router
+	- /* error page
+-working counter with redux
+-use of SASS within my webpack template
+
+================ LEFT OFF
+-I just finish off the redux logic & everything seems to be working great
+	- perhaps checkout COME BACK section before you do the next thing on TODO section
+
+================ DONE
+-check for any outdated modules & update if any
+
+-ensure page is working & on live server (netlify)
+	-master branch
+	-check package.json file is correct if still not working, particulary entry file "main"
+
+-install normalize.css
+
+-create three routes scaffold with react-router
+	- / counter page
+	- /side whatever page
+	- /* error page
+
+-create layout for each route (eg. header / footer)
+
+-create links for all routes in header component
+
+-create counter component scaffold with display number & its three buttons (increment/decrement/reset)
+	-do not worry about the logic as we will do that with redux action creators
+
+-implement SASS to routes
+	-install sass
+	-create global sass
+	-create individual component sass
+
+-implement redux to the counter component
+	-setup redux first with store & reducers
+	-implement @redux-devtools/extension
+	-implement redux-thunk
+	-use counter state for CounterDisplay component
+	-create action creators
+	-connect the action creators to the buttons
+
+================ TODO
+-add image to /side
+	-try to ensure it is optimized using webpack loaders/plugins
+
+-README.md file
+
+================ COME BACK
+npm run lint shows unused import React, delete them when you finish
+	- "plugin:react/jsx-runtime",
+
+================ PLAYGROUND
+
+
+
+
