@@ -16,4 +16,9 @@ module.exports = {
   rules: {
     "no-extra-semi": 0,
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };

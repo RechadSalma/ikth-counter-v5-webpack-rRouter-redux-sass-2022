@@ -46,18 +46,21 @@
 	-create action creators
 	-connect the action creators to the buttons
 
-================ TODO
--add image to /side
+-re-insert iKmanifestDir/iKdummyManifest.txt back to the src/ because there is error in Netlify deployment due to npm run build has specific commands to include iKmanifesDir/
+
+-configure netlify configuration file (netlify.toml) to redirect all static routes (react-router) instead of using the typical _redirects file we used before
+	-you can set up your build too & etc
+
+-add image to /side & optimize it
 	-try to ensure it is optimized using webpack loaders/plugins
+	-Used image-minimizer-webpack-plugin / Imagemin / imagemin-mozjpeg plugins to compress my jpeg image of the lizard
+		-I compress image from 232kb to 11kb using only 5% quality
 
 -README.md file
+================ TODO
 
 ================ COME BACK
-npm run lint shows unused import React, delete them when you finish
-	- "plugin:react/jsx-runtime",
 
 ================ PLAYGROUND
-
-
 
 
