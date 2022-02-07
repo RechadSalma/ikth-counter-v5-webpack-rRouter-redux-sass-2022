@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <form name="iKcontactForm" method="POST">
-      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="form-name" value="iKcontactForm" />
       <p>
         <label htmlFor="name">Name: </label>
         <input type="text" id="name" name="NAME" />
