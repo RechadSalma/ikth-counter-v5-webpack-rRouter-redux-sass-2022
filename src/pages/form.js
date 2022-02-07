@@ -10,7 +10,7 @@ export default function Form() {
       </p>
       <p>
         <label htmlFor="email">Email: </label>
-        <input type="text" id="email" name="EMAIL" />
+        <input type="email" id="email" name="EMAIL" />
       </p>
       <p>
         <label htmlFor="message">Message: </label>
