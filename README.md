@@ -3,15 +3,17 @@
 ## Status
 
 - 20220206: _completed most of what I wanted to achieve, & am pleased in general_
+- 20220207: _Included route /form to use Netlify form submmision as contact form. All is working fine on live site & added a notification settings to send form submission to my yahoo email_
 
 ---
 
 ## Mission
 
-- Wanted to test out: webpack / react / react-router / redux / sass / redux devtools / webpack image optimization plugins
+- Wanted to test out: webpack / react / react-router / redux / sass / redux devtools / webpack image optimization plugins / Netlify form submission (contact form)
 - Three route paths:
   - `/` = counter page with three working redux buttons
   - `/side` = display compress imaged
+  - `/form` = contact form
   - `/*` = error page
 - working counter with redux
 - use of SASS within my webpack template
@@ -34,6 +36,8 @@
 - `netlify.toml` - Netlify configuration file to redirect static routes (react-router) & basic setup
 
   - my jpeg file from 232kb to 11kb with 5% quality on production mode
+
+- Netlify form submission as contact form for live site
 
   ***
 
