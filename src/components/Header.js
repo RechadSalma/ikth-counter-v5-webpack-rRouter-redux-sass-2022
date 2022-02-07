@@ -15,6 +15,9 @@ export default function Header() {
             <Link to="/side">Side page</Link>
           </li>
           <li>
+            <Link to="/form">Form page</Link>
+          </li>
+          <li>
             <Link to="/404">404 page</Link>
           </li>
         </ul>
