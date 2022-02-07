@@ -7,13 +7,15 @@ const fs = require("fs");
 app.use("/", express.static(path.resolve(__dirname, "../dist")));
 
 /*Get node server to read from our bundle index.html file */
-app.get("*", function (req, res) {
-    const pathToHtmlFile = path.resolve(__dirname, "../dist/index.html");
-    const contentFromHtmlFile = fs.readFileSync(pathToHtmlFile, "utf-8");
-    res.send(contentFromHtmlFile);
+app.get("*", (req, res) => {
+  const pathToHtmlFile = path.resolve(__dirname, "../dist/index.html");
+  fs.readFile(pathToHtmlFile, "utf-8", (err, data) => {
+    if (err) throw err;
+    res.send(data);
+  });
 });
 
 /*create a http://localhost:3000 port*/
-app.listen(3000, function () {
-    console.log("iK Application is running on http://localhost:3000/");
+app.listen(3000, () => {
+  console.log("iK Application is running on http://localhost:3000/");
 });

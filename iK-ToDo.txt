@@ -9,9 +9,7 @@
 -use of SASS within my webpack template
 
 ================ LEFT OFF
--I just finish off the redux logic & everything seems to be working great
-	- perhaps checkout COME BACK section before you do the next thing on TODO section
-
+-
 ================ DONE
 -check for any outdated modules & update if any
 
@@ -57,9 +55,9 @@
 		-I compress image from 232kb to 11kb using only 5% quality
 
 -README.md file
-================ TODO
+
 -include netlify form submission as contact form
-	-create form route for the contact form
+	-create /form route for the contact form
 	-create form link on header
 	-check out doc on how to do it the way Netlify needs it to be
 	-create contact form component
@@ -76,6 +74,8 @@
 -git commit & see netlify deploy
 	-test form submission is working accordingly
 	-check synk result has improved
+
+================ TODO
 
 ================ COME BACK
 
