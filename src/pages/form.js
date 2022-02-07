@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Form() {
   return (
-    <form name="iKcontactForm" method="POST" data-netlify="true">
+    <form name="iKcontactForm" method="POST">
+      <input type="hidden" name="form-name" value="contact" />
       <p>
         <label htmlFor="name">Name: </label>
         <input type="text" id="name" name="NAME" />
@@ -13,7 +14,7 @@ export default function Form() {
       </p>
       <p>
         <label htmlFor="message">Message: </label>
-        <input type="text" id="message" name="MESSAGE" />
+        <textarea id="message" name="MESSAGE"></textarea>
       </p>
       <button type="submit">SUBMIT</button>
     </form>
