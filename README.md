@@ -33,10 +33,8 @@
   - redux-thunk
 - SASS
 - image-minimizer-webpack-plugin / Imagemin / imagemin-mozjpeg
-- `netlify.toml` - Netlify configuration file to redirect static routes (react-router) & basic setup
-
   - my jpeg file from 232kb to 11kb with 5% quality on production mode
-
+- `netlify.toml` - Netlify configuration file to redirect static routes (react-router) & basic setup
 - Netlify form submission as contact form for live site
 
   ***
